@@ -1,0 +1,33 @@
+:root {
+  --pixel-green: #00ff41; /* 經典駭客螢光綠 */
+  --bg-dark: #001100;
+  --anime-red: #ff0055;
+  --panel-bg: rgba(0, 40, 0, 0.8);
+}
+.matrix-bg {
+  background: var(--bg-dark);
+  color: var(--pixel-green);
+  font-family: 'Share Tech Mono', 'Cubic11', monospace;
+}
+.anime-border {
+  border: 2px solid var(--pixel-green);
+  box-shadow: 0 0 10px rgba(0, 255, 65, 0.3);
+  background: var(--panel-bg);
+}
+.anime-header {
+  border-bottom: 4px double var(--pixel-green);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-info-tag {
+  background: var(--pixel-green);
+  color: #000;
+  padding: 5px 15px;
+  font-weight: bold;
+  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+}
+/* 修改按鈕與選單顏色為深綠色調 */
+.nav-btn.active { background: var(--pixel-green); color: #000; }
+.pixel-input { border-color: #004400; color: var(--pixel-green); background: #001100; }
